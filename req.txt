@@ -18,3 +18,4 @@ uvicorn
 tqdm
 argparse
 PyYAML
+argparse
