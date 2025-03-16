@@ -5,13 +5,13 @@ raw_data:
     data_src: data_source
 
 load_data:
-    num_classes: 4
+    num_classes: 2
     row_data: data_soure
     preprocessed_data: data/processed
     full_path: dlproject/data_source
 
-train:
-    split_ratio:0.80
+train :
+    split_ratio: 0.80
 
 model:
     name: CNN

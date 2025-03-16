@@ -16,6 +16,8 @@ def get_data(config_path):
     config = read_params(config_path)
     if not isinstance(config, dict):
         raise ValueError("Config file is not properly loaded as a dictionary.")
+    # print(f"DEBUG: Type of config = {type(config)}")  # Should be <class 'dict'>
+    # print(f"DEBUG: Config content = {config}")  # See the content
     return config
 
 
